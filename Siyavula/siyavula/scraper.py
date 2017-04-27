@@ -20,7 +20,7 @@ class Scraper:
             final_content = []
             for cont in contents:
                 content = cont.find("span", {"class": "toctext"}).text
-                print(content)
+
                 final_content = final_content + [content]
 
             return final_content
