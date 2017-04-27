@@ -12,10 +12,14 @@ Siyavula.egg-info/not-zip-safe
 Siyavula.egg-info/requires.txt
 Siyavula.egg-info/top_level.txt
 siyavula/__init__.py
+siyavula/scraper.py
 siyavula/tests.py
 siyavula/views.py
 siyavula/static/pyramid-16x16.png
 siyavula/static/pyramid.png
 siyavula/static/theme.css
+siyavula/templates/home.jinja2
+siyavula/templates/index.html
+siyavula/templates/index.jinja2
 siyavula/templates/layout.jinja2
 siyavula/templates/mytemplate.jinja2

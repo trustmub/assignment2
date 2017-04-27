@@ -6,8 +6,9 @@ Home-page: UNKNOWN
 Author: UNKNOWN
 Author-email: UNKNOWN
 License: UNKNOWN
-Description: Siyavula README
-        ==================
+Description: 
+        Siyavula README Assignment
+        ==========================
         
         Getting Started
         ---------------
@@ -18,6 +19,11 @@ Description: Siyavula README
         
         - $VENV/bin/pserve development.ini
         
+        =======================================
+        
+        
+        overview
+        ---------------
         
         
         0.0

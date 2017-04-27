@@ -11,12 +11,13 @@ def main(global_config, **settings):
     # config.add_jinja2_search_path("templates")
 
     config.add_static_view('static', 'static', cache_max_age=3600)
-    config.add_route('home', '/')
+    # config.add_route('home', '/')
+    # config.add_view(my_view, route_name='index')
 
     config.add_route('hello', '/hello/{name}')
     config.add_view(hello_world, route_name='hello')
 
-    config.add_route('index', '/index/')
+    config.add_route('index', '/')
     config.add_view(index, route_name='index')
 
     config.scan()
